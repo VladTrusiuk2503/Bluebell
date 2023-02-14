@@ -1378,9 +1378,11 @@ blockquote {
 	position: absolute;
 	background-color: #f1f1f1;
 	width: 100%;
-
-
-	border-radius: 5% 10%;
+	
+	padding: 16px;
+	border-radius: 23px 23px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
 	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 
 	z-index: 1;
@@ -1392,7 +1394,10 @@ blockquote {
 
 }
 
-
+.faq-box:hover .dropbtn{
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
 .faq-box:hover .dropdown-content {
 	display: block;
 }
