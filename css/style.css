@@ -840,11 +840,10 @@ ul.footer_social li a i:hover {
 	position: relative;
 	padding-top: 140px;
 	padding-bottom: 90px;
-	background: linear-gradient(-45deg, #27b36a, #007c1d, #61e66e);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
+	background-image: url(/images/frame.jpg);
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+	
 }
 
 @-webkit-keyframes Gradient {
