@@ -735,103 +735,6 @@ iframe {
 }
 
 /* ========================================================== */
-/* 			                03. FOOTER                        */
-/* ========================================================== */
-
-.footer {
-	position: relative;
-	overflow: hidden;
-	display: block;
-	padding: 40px 0 20px 0;
-	background-color: #fafbfc;
-}
-
-.footer p {
-	margin-bottom: 5px;
-	line-height: 24px;
-	color: #454545;
-}
-
-.footer p>a {
-	font-size: 17px;
-	color: #28a745;
-	text-decoration: underline;
-}
-
-.footer p>a:hover {
-	color: #28a745;
-	text-decoration: underline;
-}
-
-span.template-name {
-	font-weight: bold;
-}
-
-a.footer-links {
-	display: block;
-	font-size: 17px;
-	margin-bottom: 2px;
-	color: #454545;
-}
-
-a.footer-links:hover {
-	color: #28a745;
-	text-decoration: underline;
-	transition: all .5s ease-in-out;
-}
-
-/* Footer Social Icons */
-ul.footer_social {
-	float: right;
-}
-
-ul.footer_social li {
-	display: inline-block;
-	margin: 0;
-	line-height: 100% !important;
-}
-
-ul.footer_social li a i {
-	display: inline-block;
-	margin: 0 8px;
-	padding: 0;
-	font-size: 26px !important;
-	line-height: 26px !important;
-	color: #1e90ff;
-	transition: all .5s ease-in-out;
-	-moz-transition: all .25s ease-in-out;
-	-webkit-transition: all .25s ease-in-out;
-}
-
-ul.footer_social li a i.fa-twitter {
-	color: #4099ff;
-}
-
-ul.footer_social li a i.fa-pinterest {
-	color: #C92228;
-}
-
-ul.footer_social li a i.fa-facebook-square {
-	color: #3b5998;
-}
-
-ul.footer_social li a i.fa-instagram {
-	color: #8a3ab9;
-}
-
-ul.footer_social li a i.fa-skipe {
-	color: #00aff0;
-}
-
-ul.footer_social li a i.fa-dribble {
-	color: #ea4c89;
-}
-
-ul.footer_social li a i:hover {
-	color: #28a745 !important;
-}
-
-/* ========================================================== */
 /* 			               04. HOME                           */
 /* ========================================================== */
 
@@ -840,8 +743,8 @@ ul.footer_social li a i:hover {
 	position: relative;
 	padding-top: 140px;
 	padding-bottom: 90px;
-	background-image: url(/images/frame.jpg);
-	background-size: 100%,100%;
+	background-image: url(/images/frame.webp);
+	background-size: 130%,100%;
 	background-repeat: no-repeat;
 	
 }
@@ -1008,7 +911,7 @@ input.register-input-home,
 select.register-input-home {
 	width: 100% !important;
 	height: 52px !important;
-	padding-left: 11% !important;
+	padding-left: 13% !important;
 	padding-right: 5% !important;
 	margin-bottom: 15px !important;
 	color: #555 !important;
@@ -2345,7 +2248,7 @@ a.blog-icons:hover {
 	border-left: 1px solid #ffffff;
 }
 
-.newsletter_info h2 {
+.newsletter_info h3 {
 	font-size: 28px;
 	line-height: 36px;
 	color: #fff;
@@ -2984,20 +2887,6 @@ ul.benefits.white li i {
 
 	.home-section-overlay {
 		opacity: 0.37;
-	}
-
-	.footer {
-		padding-top: 40px;
-		text-align: center;
-	}
-
-	ul.footer_social {
-		margin-top: 15px;
-		float: none;
-	}
-
-	ul.footer_social li a i {
-		margin: 0 8px !important;
 	}
 
 	.partners-section {
