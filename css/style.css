@@ -2248,22 +2248,6 @@ a.blog-icons:hover {
 	padding: 1px 0 30px 60px;
 	border-left: 1px solid #ffffff;
 }
-.backPhone-input{
-	width: 91%;
-	max-width: 400px;
-	height: 56px;
-	line-height: 56px;
-	padding: 0 4%;
-	border: 1px solid #ffffff;
-	background-color: transparent;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 16px;
-	margin: 0 10px 0 0;
-
-}
 .backPhone-button{
 	width: 140px;
 	height: 56px;
@@ -2283,12 +2267,18 @@ a.blog-icons:hover {
 	-webkit-transition: background-color .25s ease-in-out;
 }
 .backPhone-button:hover{
-	color: #28a745;
-	background-color: #f1f1f1;
+	
+	background-color: #28a745;
 	border: 1px solid #f1f1f1;
 	transition: background-color .25s ease-in-out;
 	-moz-transition: background-color .25s ease-in-out;
 	-webkit-transition: background-color .25s ease-in-out;
+}
+.backPhone-button>a{
+	color: #28a745;
+}
+.backPhone-button:hover >a{
+	color: #f1f1f1;
 }
 @media (max-width: 991px)
 {
